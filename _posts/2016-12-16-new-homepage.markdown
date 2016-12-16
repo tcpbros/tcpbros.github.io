@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "We have a new home-page"
 date:   2016-12-16 10:03:00
 categories: announcement
