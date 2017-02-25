@@ -81,6 +81,16 @@ and then everything should be available shortly.
 
 ## Structure
 
-The `pages` folder contains the main pages, the `pages/classes` folder should
-contain class related content, and the `pages/blog` folder, should contain blog
-entries about teaching and technology.
+Not defined yet, id say:
+
+```
+home
+  - topic home
+    - video
+    - video
+    - video
+  - topic home
+    - video
+    - video
+    - video
+```
