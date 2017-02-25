@@ -18,6 +18,11 @@ module.exports = React.createClass({
         />
         <h1>{post.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.body }} />
+        {typeof(post.author) !== 'undefined' && (
+          <div class="author">
+            {post.author}
+          </div>
+        )}
       </div>
     )
   },
