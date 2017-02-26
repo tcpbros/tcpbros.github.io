@@ -17,14 +17,16 @@ apt-get install git
 
 en la consola. Si se tiene OSX, es recomendable revisar cómo instalar [Homebrew](https://brew.sh/index_es.html) o [Macports](https://www.macports.org/) y, una vez instalado, instalar git con el gestor de paquetes correspondiente.
 
-## git init
+## Comandos locales
+
+### git init
 Para comenzar un repositorio, nos ubicamos en la carpeta donde está nuestro proyecto desde la terminal y corremos el siguiente comando:
 
 ```
 git init
 ```
 
-## git status
+### git status
 Para conocer el estado de nuestro repositorio, corremos el comando
 
 ```
@@ -33,7 +35,7 @@ git status
 
 Al correr este comando, se muestra en consola los archivos que se han modificado o los que no hayan sido añadidos al control de versiones en rojo, y se muestran en verde los cambios que hayan sido añadidos a la *staging zone* (es decir, los cambios que serían comprometidos en el siguiente commit).
 
-## git add
+### git add
 Para añadir cambios a la *staging zone*, usamos el comando
 
 ```
@@ -47,7 +49,7 @@ git add .
 ```
 para añadir todos los archivos en el directorio actual.
 
-## git commit
+### git commit
 Para comprometer los cambios usamos el comando
 
 ```
@@ -62,7 +64,7 @@ git commit -am "mensaje"
 
 Usando esta bandera, añadimos al commit todos los cambios de archivos que hayan sido añadidos al menos una vez antes.
 
-## git diff
+### git diff
 
 Para ver qué cambios han sido realizados podemos usar el comando
 
@@ -72,7 +74,7 @@ git diff
 
 Nótese que solo se mostrarán los cambios de archivos que ya hayan sido añadidos al menos una vez antes.
 
-## git log
+### git log
 
 Con el comando
 
@@ -82,7 +84,7 @@ git log
 
 podemos acceder a un historial de todos los commits realizados anteriormente, saber quién lo hizo y cuándo, e identificar el hash correspondiente a cada commit. El hash puede ser útil a la hora de usar comandos como *git revert* y *git checkout*.
 
-## git revert
+### git revert
 
 Usando el comando
 
@@ -92,7 +94,7 @@ git revert hash-del-commit
 
 podemos revertir los cambios realizados en un commit especificando su hash.
 
-## git show
+### git show
 
 Para saber qué cambios se realizaron en cierto commit, usamos el comando
 
