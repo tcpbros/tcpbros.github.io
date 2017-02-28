@@ -4,6 +4,7 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
 import '../css/markdown-styles'
+import '../css/app'
 
 import { rhythm } from '../utils/typography'
 
@@ -28,6 +29,7 @@ module.exports = React.createClass({
             style={{
               maxWidth: 960,
               paddingTop: 0,
+              textAlign: 'center',
               padding: `${rhythm(1)} ${rhythm(3/4)}`,
             }}
           >
@@ -38,7 +40,18 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              TCP Bros
+              <img
+                src={prefixLink('/logo.svg')}
+                alt="Logo"
+                style= {{
+                  height: '100px',
+                  marginBottom: `${rhythm(1/2)}`
+                }}
+              />
+              <div className="brand">
+                TCP Bros <br />
+                <small>Tecnologia, ciencia y programacion</small>
+              </div>
             </Link>
           </Container>
         </Headroom>
