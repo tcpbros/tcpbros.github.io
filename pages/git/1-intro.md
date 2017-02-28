@@ -18,7 +18,7 @@ discutimos ciertos comandos para aprovechar git de forma local. En este post
 discutimos con más profundidad la sintaxis y el manejo de éstos. Además,
 resumimos cómo instalar git.
 
-@[youtube](pUyMtSHBuv4)
+@[youtube](9OEYwr9kAXk)
 
 ## Instalando git
 

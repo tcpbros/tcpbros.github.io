@@ -14,13 +14,17 @@ desecharla y volver a la rama principal. Como segundo ejemplo podemos
 considerar el siguiente: supongamos que estamos trabajando en una tesis con un
 profesor. Podemos crear una rama en donde el profesor se encargará de hacer
 revisiones, de tal forma que sus cambios no afecten el desarrollo principal de
-la tesis.
+la tesis. 
 
 ![Imagen con branches](/branches.svg)
 
-Acá presentamos una pequeña introducción al uso básico de ramas de forma local.
-Más tarde entraremos en más detalles sobre este tema cuando hablemos de usar
-git de forma remota.
+Realizamos un par de ejemplos en el siguiente video:
+
+@[youtube](pUyMtSHBuv4)
+
+En este post presentamos una pequeña introducción al uso básico de ramas de 
+forma local. Más tarde entraremos en más detalles sobre este tema cuando
+hablemos de usar git de forma remota.
 
 ## git branch
 
