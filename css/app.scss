@@ -33,3 +33,24 @@
   color: white;
   text-align: center;
 }
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.author--photo {
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+  overflow: hidden;
+}
+
+.author--info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
