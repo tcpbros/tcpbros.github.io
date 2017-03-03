@@ -13,7 +13,7 @@ module.exports = React.createClass({
     return (
       <div>
         <Helmet
-          title={`${config.siteTitle} | ${data.title}`} 
+          title={`${config.siteTitle} | ${data.title}`}
         />
         <h1>{data.title}</h1>
         <p>Raw view of json file</p>

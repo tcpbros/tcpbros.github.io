@@ -13,7 +13,7 @@ module.exports = React.createClass({
     return (
       <div>
         <Helmet
-          title={`${config.siteTitle} | ${page.title}`} 
+          title={`${config.siteTitle} | ${page.title}`}
         />
         <div dangerouslySetInnerHTML={{ __html: page.body }} />
       </div>

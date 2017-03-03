@@ -28,3 +28,7 @@ node_modules
 .gatsby-context.js
 .sass-cache/
 public/
+
+# Mac stuffs
+
+.DS_Store

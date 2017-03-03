@@ -1,2 +1,8 @@
 siteTitle="TCP Bros"
 linkPrefix = ""
+
+[authors]
+[authors."miguelgondu@gmail.com"]
+email = "miguelgondu@gmail.com"
+name = "Miguel González Duque"
+photo = "/bros/miguelgondu.jpeg"

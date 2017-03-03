@@ -2,6 +2,7 @@ import React from 'react'
 import 'css/markdown-styles.css'
 import Helmet from 'react-helmet'
 import { config } from 'config'
+import AuthorMediaElement from '../components/AuthorMediaElement';
 
 module.exports = React.createClass({
   propTypes () {
@@ -11,18 +12,17 @@ module.exports = React.createClass({
   },
   render () {
     const post = this.props.route.page.data
+    console.log(config);
     return (
       <div className="markdown">
         <Helmet
           title={`${config.siteTitle} | ${post.title}`}
         />
         <h1>{post.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.body }} />
         {typeof(post.author) !== 'undefined' && (
-          <div class="author">
-            {post.author}
-          </div>
+          <AuthorMediaElement {...config.authors[post.author]}/>
         )}
+        <div dangerouslySetInnerHTML={{ __html: post.body }} />
       </div>
     )
   },
