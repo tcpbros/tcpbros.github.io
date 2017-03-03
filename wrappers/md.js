@@ -12,7 +12,6 @@ module.exports = React.createClass({
   },
   render () {
     const post = this.props.route.page.data
-    console.log(config);
     return (
       <div className="markdown">
         <Helmet
