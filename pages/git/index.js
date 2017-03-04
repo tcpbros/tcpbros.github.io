@@ -23,25 +23,25 @@ export default class Index extends React.Component {
         <ul className="contents">
           <li className="contents--element">
             <ContentTitle
-              url={prefixLink('/git/1-intro/')}
-              background={prefixLink('/git/comandos-locales.png')}
-              title='Git comandos locales'
+              url={prefixLink('/git/intro/')}
+              background={prefixLink('/git/intro/cover.png')}
+              title='Comandos locales'
             />
           </li>
 
           <li className="contents--element">
             <ContentTitle
-              url={prefixLink('/git/2-branches/')}
-              background={prefixLink('/git/branches.png')}
-              title='Git ramas'
+              url={prefixLink('/git/branches/')}
+              background={prefixLink('/git/branches/cover.png')}
+              title='Ramas'
             />
           </li>
 
           <li className="contents--element">
             <ContentTitle
-              url={prefixLink('/git/3-remotos/')}
-              background={prefixLink('/git/github.jpg')}
-              title='Git repositorios remotos'
+              url={prefixLink('/git/remotes/')}
+              background={prefixLink('/git/remotes/cover.jpg')}
+              title='Repositorios remotos'
             />
           </li>
         </ul>
