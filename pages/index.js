@@ -24,7 +24,7 @@ export default class Index extends React.Component {
           <li className="contents--element">
             <ContentTitle
               url={prefixLink('/git/')}
-              background={prefixLink('/git-logo.png')}
+              background={prefixLink('/git/cover.png')}
               title='Git'
             />
           </li>
