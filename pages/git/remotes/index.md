@@ -91,7 +91,7 @@ simplificar y simplemente escribir,
 git push
 ```
 
-# Un grafo arbitrario
+## Un grafo arbitrario
 
 Git, permite tender un grafo arbitrario de remotos, pero cuando usamos
 [github](https://github.com) este tiende a convertirse en un lugar centralizado
@@ -106,3 +106,53 @@ git pull origin master
 # Que puede ser simplificado a
 git pull
 ```
+
+## Conflictos
+
+Mantener los repositorios sincronizados usando `push` y `pull` de manera
+asíncrona puede ocacionar conflictos, estos se generan cuando se quiere
+realizar un `pull` y los cambios que se encuentran en el remoto y los cambios
+locales que no se encuentran en el remoto modifican las mismas lineas de un
+archivo. Git hace muy fácil combinar cambios controlados semánticamente entre
+distintas versiones de un repositorio, sin embargo, git requiere intervención
+humana en caso de que se presenten conflictos, y aún así, git hace facil
+identificarlos y resolverlos.
+
+## Ramas
+
+Para terminar, si se usan ramas, para evitar conflictos entre versiones,
+o simplemente para mantener dos versiones de un proyecto simultaneamente en
+el mismo repositorio hay que tener cuidados especiales, cuando se va a hacer
+push por primera vez de una nueva rama se puede hacer:
+
+```bash
+# Desde nuestro repositorio
+git checkout -b nueva-rama
+# Opcionalmente realizar cambios y commit
+git push -u origin nueva-rama
+```
+
+La bandera `-u` va a asociar las ramas local y remota para que luego se pueda
+hacer simplemente `git push` o `git pull` desde esta rama.
+
+Para traer nuevas ramas desde un repositorio remoto hacemos,
+
+```bash
+# Desde nuestro repositorio
+git pull
+git checkout nueva-rama-remota
+```
+
+las versiones recientes de git, van a detectar que la `nueva-rama-remota` no
+existe en nuestro repositorio local y luego la va a crear y asociar, en
+versiones antiguas de git el comando anterior arrojará un error y lo correcto
+sería crear y asociar la rama manualmente,
+
+```bash
+# En versiones antiguas de git
+# Desde nuestro repositorio
+git pull
+git checkout -b nueva-rama-remota --track origin/nueva-rama-remota
+```
+
+un poco más largo, pero no mucho más complicado.
