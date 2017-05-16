@@ -41,7 +41,7 @@ module.exports = React.createClass({
               }}
             >
               <img
-                src={prefixLink('/logo.svg')}
+                src={prefixLink('/logo.png')}
                 alt="Logo"
                 style= {{
                   height: '100px',

@@ -10,7 +10,7 @@ class ContentTitle extends Component {
           className="content-title"
           style={{
             background: `url('${this.props.background}') no-repeat center`,
-            backgroundSize: 'contain',
+            backgroundSize: 'cover',
           }}
         >
           <div className="content-description">

@@ -16,7 +16,7 @@ profesor. Podemos crear una rama en donde el profesor se encargará de hacer
 revisiones, de tal forma que sus cambios no afecten el desarrollo principal de
 la tesis.
 
-![Imagen con branches](branches.svg)
+![Imagen con branches](cover.png)
 
 Realizamos un par de ejemplos en el siguiente video:
 

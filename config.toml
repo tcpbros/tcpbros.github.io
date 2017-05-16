@@ -2,7 +2,13 @@ siteTitle="TCP Bros"
 linkPrefix = ""
 
 [authors]
+
 [authors."miguelgondu@gmail.com"]
 email = "miguelgondu@gmail.com"
 name = "Miguel González Duque"
 photo = "/bros/miguelgondu.jpeg"
+
+[authors."odarbelaeze@gmail.com"]
+email = "odarbelaeze@gmail.com"
+name = "Oscar David Arbeláez Echeverri"
+photo = "/bros/odarbelaeze.jpeg"
