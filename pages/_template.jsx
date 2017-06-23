@@ -50,7 +50,7 @@ module.exports = React.createClass({
               />
               <div className="brand">
                 TCP Bros <br />
-                <small>Tecnologia, ciencia y programacion</small>
+                <small>Tecnología, ciencia y programación</small>
               </div>
             </Link>
           </Container>
