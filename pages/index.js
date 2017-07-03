@@ -73,7 +73,7 @@ export default class Index extends React.Component {
               </ArticleLink>
               {page.data.summary && <p>{page.data.summary}</p>}
               <Date>{page.data.date.fromNow()}</Date>
-              {page.data.tags && page.data.tags.map(tag => <Tag>{tag}</Tag>)}
+              {page.data.tags && page.data.tags.map(tag => <Tag key={tag}>{tag}</Tag>)}
             </li>
           ))}
         </ArticleList>
