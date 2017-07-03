@@ -1,6 +1,8 @@
 ---
 title: Git Commit
 author: odarbelaeze@gmail.com
+tags: git, commit
+summary: Explicamos cómo decidir cuando realizar un commit en un repositorio.
 ---
 
 `git commit` puede ser el comando más importante en el mundo de git. Este
@@ -47,7 +49,7 @@ Por otra parte, buenos _commit messages_ son consisos (menos de 72 caractéres)
 y estan escritos en infinitivo, ya que estas revisiones son reversibles, y al
 revertirlas se generan automáticamente mensajes del tipo
 
-> Revert "Crea una nueva sección en el blog"
+> `Revert "Crea una nueva sección en el blog"`
 
 que no tienen tanto sentido para otras conjugaciones.
 
@@ -56,10 +58,8 @@ que no tienen tanto sentido para otras conjugaciones.
 Distintos autores tienen distintas opiniones en cuanto a cuándo realizar un
 commit, sin embargo, yo me adhiero a la teoría del _unit of work_ (unidad de
 trabajo), me gusta definir una unidad de trabajo como un set de cambios mínimo
-que nos lleva desde un software funcional (o texto compilable e inteligible)
-hasta otro software funcional acercandonos a una meta más grande. [[Acá siento
-que no dijo nada, Osco, no me queda para nada claro a qué se refiere con texto
-compilable e inteligible]]
+que nos lleva desde un software funcional hasta otro software funcional
+acercandonos a una meta más grande.
 
 Por ejemplo, si tengo el objetivo de crear un blog, descargar los archivos
 básicos (wordpress por ejemplo) sería una unidad de trabajo, no toma tanto
@@ -73,8 +73,7 @@ git commit -m "Agrega archivos basicos del blog engine"
 Una segunda unidad de trabajo sería elegir y descargar los archivos relacionados
 con el tema deseado para el blog, este paso nuevamente nos lleva desde un
 software funcional a otro software funcional pero no hasta el objetivo final,
-este pequeño paso puede ser celebrado con un: [[Acá repitió lo de ser celebrado,
-¡cámbielo por algo diferente!]]
+este pequeño paso puede ser celebrado con un:
 
 ```bash
 git commit -m "Configura archivos relacionados con un tema"

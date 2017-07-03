@@ -44,6 +44,14 @@ export default class Index extends React.Component {
               title='Repositorios remotos'
             />
           </li>
+
+          <li className="contents--element">
+            <ContentTitle
+              url={prefixLink('/git/commit/')}
+              background={prefixLink('/git/cover.png')}
+              title='Git commit'
+            />
+          </li>
         </ul>
       </div>
     )
