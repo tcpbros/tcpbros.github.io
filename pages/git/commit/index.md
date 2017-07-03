@@ -3,6 +3,7 @@ title: Git Commit
 author: odarbelaeze@gmail.com
 tags: git, commit
 summary: Explicamos cómo decidir cuando realizar un commit en un repositorio.
+date: 2017-07-03
 ---
 
 `git commit` puede ser el comando más importante en el mundo de git. Este
