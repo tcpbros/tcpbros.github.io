@@ -17,6 +17,7 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-video": "^0.4.0",
     "object-assign": "^4.1.1",
+    "react-ga": "^2.2.0",
     "react-headroom": "^2.1.2",
     "react-helmet": "^3.2.2",
     "react-responsive-grid": "^0.3.3",
