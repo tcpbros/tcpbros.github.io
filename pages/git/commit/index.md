@@ -36,7 +36,7 @@ realizados en dicha revisión.
 
 ## Buenos commit messages
 
-Un buen _commit message_ explica la **intencion** que tuvieron los cambios, por
+Un buen _commit message_ explica la **intención** que tuvieron los cambios, por
 ejemplo,
 
 ```bash
