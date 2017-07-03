@@ -2,6 +2,7 @@
 title: Introducción y comandos locales
 author: miguelgondu@gmail.com
 date: 2017-03-02
+tags: git, intro
 ---
 
 **Git** es una herramienta de control de versiones que nos permite, como su

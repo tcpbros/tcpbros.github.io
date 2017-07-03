@@ -2,6 +2,7 @@
 title: Introducción a branches
 author: miguelgondu@gmail.com
 date: 2017-03-03
+tags: git, ramas, merge
 ---
 
 **Branches** (en español *ramas*) consisten en diferentes líneas temporales para
