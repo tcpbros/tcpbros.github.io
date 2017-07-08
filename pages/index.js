@@ -28,7 +28,7 @@ const ArticleList = styled.ul`
 `;
 
 
-const Date = styled.span`
+const Date = styled.p`
   color: lightgray;
   font-size: 0.75em;
 `;
@@ -37,7 +37,7 @@ const Tag = styled.span`
   background-color: rgb(255, 200, 26);
   color: rgb(83, 83, 83);
   border-radius: 5px;
-  margin-left: 0.5em;
+  margin-right: 0.5em;
   padding: 0.2em 0.5em;
 `;
 
@@ -73,7 +73,7 @@ export default class Index extends React.Component {
               </ArticleLink>
               {page.data.summary && <p>{page.data.summary}</p>}
               <Date>{page.data.date.fromNow()}</Date>
-              {page.data.tags && page.data.tags.map(tag => <Tag key={tag}>{tag}</Tag>)}
+              {page.data.tags && <p> {page.data.tags.map(tag => <Tag key={tag}>{tag}</Tag>) } </p> }
             </li>
           ))}
         </ArticleList>
