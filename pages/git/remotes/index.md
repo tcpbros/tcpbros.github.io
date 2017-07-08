@@ -1,6 +1,10 @@
 ---
-title: Git 2 - Repositorios remotos
+title: Repositorios remotos
 author: odarbelaeze@gmail.com
+date: 2017-03-04
+tags: git, remote, github, ramas, conflictos
+summary: Explicamos cómo crear un repositorio remoto usando github, y cómo
+    mantener los proyectos sinronizados en diferentes remotos.
 ---
 
 Una de las características más usadas de git es su capacidad de facilitar la
