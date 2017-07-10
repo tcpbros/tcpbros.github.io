@@ -12,12 +12,7 @@ desarrollo de front-end moderno, sin embargo, tal como evoluciona la
 especificacion ECMA Script, en la que se basan las implementaciones específicas
 de JavaScript, [Node.js][node] y sus herramientas de consola también evolucionan
 rápidamente, habiendo sido publicado en 2011, contamos ya con 8 versiones no
-retro compatibles.[[Cambiaría casi todo este párrafo, está inmanejable por el
-montón de tecnicismos. Dejaría los tecnicismos para después y diría nada maś que
-"Node.js y sus herramientas de consola evolucionan rápidamente. ¡Ya tenemos 8
-versiones no retro compatibles desde apenas el 2011!"; además, recuerde las
-tildes; por último (y esto afecta todo después), solo pondría el link a node una
-sola vez]]
+retro compatibles.
 
 ## Paremos, ¿Qué rayos es Node.js?
 
