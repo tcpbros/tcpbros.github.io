@@ -4,7 +4,7 @@ author: odarbelaeze@gmail.com
 tags: node, js, cli
 summary: Explicamos como instalar node de manera segura usando el gestor
     de versiones nvm (node version manager)
-nodate: 2017-07-08
+date: 2017-07-10
 ---
 
 [Node.js][node] se ha convertido en una herramienta indispensable para el
