@@ -8,11 +8,9 @@ date: 2017-07-10
 ---
 
 [Node.js][node] se ha convertido en una herramienta indispensable para el
-desarrollo de front-end moderno, sin embargo, tal como evoluciona la
-especificacion ECMA Script, en la que se basan las implementaciones específicas
-de JavaScript, [Node.js][node] y sus herramientas de consola también evolucionan
-rápidamente, habiendo sido publicado en 2011, contamos ya con 8 versiones no
-retro compatibles.
+desarrollo de front-end moderno, sin embargo, tanto el lenguage JavaScript como
+las herramientas de node evolucionan rápidamente, desde el lanzamiento de
+[Node.js][node] en 2011 contamos con 8 versiones no retro compatibles.
 
 ## Paremos, ¿Qué rayos es Node.js?
 
@@ -53,8 +51,7 @@ Para instalar [Node.js][node] recomiendo usar [node version manager][nvm],
 también conocido como [nvm][nvm]. Este pequeño script permite instalar varias
 versiones de [Node.js][node] y usarlas a conveniencia en el momento necesario.
 La instalación de [nvm][nvm] puede realizarse usando un script de instalación
-listado en el [github del proyecto][nvm], [[mismo cuento con los links, aunque
-no sé]]
+listado en el [github del proyecto][nvm],
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
