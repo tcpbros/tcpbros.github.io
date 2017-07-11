@@ -14,11 +14,11 @@ las herramientas de node evolucionan rápidamente, desde el lanzamiento de
 
 ## Paremos, ¿Qué rayos es Node.js?
 
-[Node.js][node] se puede describir con una simple frase "JavaScript en el
+[Node.js][node] se puede describir con una simple frase: "JavaScript en el
 servidor", antes de [Node.js][node] JavaScript era un lenguaje del cliente, y
 era interpretado por un navegador, cuando llegó `node`, permitió a los
 desarrolladores escribir programas que corrían en el lado del servidor, los
-ejemplos más impactantes eran servidores HTTP asíncronos en unas pocas lineas
+ejemplos más impactantes eran servidores HTTP asíncronos en unas pocas líneas
 de código:
 
 ```js
@@ -32,7 +32,7 @@ server.listen(8000);
 console.log("Server running at http://127.0.0.1:8000/");
 ```
 
-para ejecutar este servidor bastaba con escribir `node server.js` y éste
+para ejecutar este servidor bastaba con escribir `node server.js` y este
 sencillo código podía manejar una gran cantidad de peticiones en "paralelo"
 gracias al _non blocking I/O_ con el que `node` se construyó desde un
 principio.
@@ -76,12 +76,12 @@ son:
 
 - `nvm ls` lista las versiones instaladas en el sistema.
 - `nvm ls-remote` lista las versiones disponibles para instalar.
-- `nvm use <version>` usa una version instalada en la consola.
+- `nvm use <version>` usa una versión instalada en la consola.
 - `nvm default <version>` configura la versión por defecto de `node` a usar.
 
 ## Una vez instalado
 
-Podemos verificar la version de `node` usada en la consola con:
+Podemos verificar la versión de `node` usada en la consola con:
 
 ```bash
 node --version
