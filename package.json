@@ -39,6 +39,7 @@
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-links && gh-pages -d public -b master",
     "develop": "gatsby develop",
+    "start": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

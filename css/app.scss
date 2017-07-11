@@ -1,3 +1,11 @@
+a {
+  text-decoration: none;
+  color: rgb(211, 63, 0);
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .contents {
   list-style: none;
   padding: inherit;
