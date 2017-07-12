@@ -94,8 +94,7 @@ parece un problema *fácil de resolver*, un problema que se puede resolver a
 fuerza bruta.
 
 ### Bibliografía y lecturas recomendadas:
-- [El Rival de Prometeo, vidas de autómatas ilustres]
-(http://impedimenta.es/libros.php/el-rival-de-prometeo-vidas), editorial
+- [El Rival de Prometeo, vidas de autómatas ilustres](http://impedimenta.es/libros.php/el-rival-de-prometeo-vidas), editorial
 Impedimenta, 2009.
 - [Documental sobre la partida entre Deep Thought y Garry Kasparov en 1989 (en
 inglés)](https://youtu.be/mhnDzk9IVAA)
