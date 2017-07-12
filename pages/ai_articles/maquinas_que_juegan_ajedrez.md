@@ -71,7 +71,7 @@ la novela *La guía del viajero intergaláctico*, de Douglas Adams). Deep Though
 fue programada y construida por estudiantes de doctorado de Carnegie Mellon
 University, y resultó siendo una de las mejores máquinas en jugar la primera
 versión de [Harvard Cup](https://chessprogramming.wikispaces.com/Harvard+Cup) en
-1989, un toreno de ajedrez con humanos y máquinas. Esto atrajo la inversión de
+1989, un torneo de ajedrez con humanos y máquinas. Esto atrajo la inversión de
 IBM y la atención de la comunidad. En 1989 se jugó también una partida entre
 Deep Thought y Garry Kasparov, y éste último logró defender su orgullo y el
 orgullo de la raza humana ganándole sin ningún problema. Sin embargo, 7 años
