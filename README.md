@@ -45,7 +45,7 @@ git pull
 then before you start commiting changes,
 
 ```bash
-git chechout -b name-your-branch
+git checkout -b name-your-branch
 ```
 
 now make your changes (add new pages etc) and then
