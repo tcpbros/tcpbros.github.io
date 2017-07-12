@@ -1,9 +1,9 @@
 ---
-title: Máquinas que juegan juegos: ajedrez
+title: "Máquinas que juegan juegos: ajedrez"
 tags: ajedrez, inteligencia artificial, autómatas
 summary: Un resumen sobre máquinas que han jugado ajedrez a lo largo de la
-historia. Desde el Turco hasta Deep Blue.
-nodate: 2017-07-10
+  historia. Desde el Turco hasta Deep Blue.
+date: 2017-07-12
 author: miguelgondu@gmail.com
 ---
 
@@ -63,7 +63,7 @@ era inútil ante las máquinas que no tenían sentimientos: con los noventas
 llegaron varios programas de computadora que jugaban al ajedrez de forma
 competitiva a nivel gran maestro. Varias (como Socrates, Chessmaster 3000 y
 VirtualChess) evolucionaron para ser los primeros videojuegos de ajedrez, pero
-una de ellas pasó a la historia al ser la primera máquina en ganarle a Kasparov 
+una de ellas pasó a la historia al ser la primera máquina en ganarle a Kasparov
 (en ese entonces campeón mundial del ajedrez): Deep Blue.
 
 Deep Blue es el sucesor de Deep Thought (llamado así por la súpercomputadora de
@@ -99,6 +99,6 @@ fuerza bruta.
 Impedimenta, 2009.
 - [Documental sobre la partida entre Deep Thought y Garry Kasparov en 1989 (en
 inglés)](https://youtu.be/mhnDzk9IVAA)
-- [Charla con Murray Campbell y Joel Benjamin sobre Deep Thought y Deep Blue 
+- [Charla con Murray Campbell y Joel Benjamin sobre Deep Thought y Deep Blue
 (en inglés)](https://www.youtube.com/watch?v=2Xhd2KNNs-c)
 - [Artículo sobre el libro más reciente de Kasparov (en inglés)](https://www.ft.com/content/19a2c21a-33e6-11e7-99bd-13beb0903fa3)
