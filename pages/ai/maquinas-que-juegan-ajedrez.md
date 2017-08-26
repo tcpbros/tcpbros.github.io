@@ -82,9 +82,9 @@ Blue le ganó la revancha de la revancha a Kasparov en un juego muy parejo: 0-1,
 clasificada por muchos como *humana*. No ocurrió, obviamente, que la máquina
 hubiera despertado una conciencia humana y hubiera ganado. Todo lo contrario,
 Joel Benjamin (un gran maestro del ajedrez y asesor del equipo de Deep Blue)
-sabía que si el juego se abría con un Caro-Kann (una obertura peligrosa que usó
-Kasparov en el último partido) y programó a la fuerza una preferencia por
-sacrificar un caballo, trampa en la que cayó Kasparov por completo.
+sabía que Kasparov abría ocasionalmente con un Caro-Kann y programó a la fuerza
+una preferencia por sacrificar un caballo, trampa en la que cayó Kasparov por
+completo.
 
 Ese día podríamos decir que el ajedrez, según nuestra definición, dejó de ser
 objeto de estudio de IA. Esto se nota inclusive por la forma como ha cambiado
